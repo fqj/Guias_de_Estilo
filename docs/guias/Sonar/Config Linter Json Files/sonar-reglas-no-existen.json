@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Sonar way 2.1",
+        "language": "js",
+        "default": true,
+        "rules": [
+            {
+                "key": "HtmlComments",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "CollapsibleIfStatements",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "ConstructorFunctionsForSideEffects",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "FutureReservedWords",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "ConditionalComment",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S1145",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S138",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "max",
+                        "value": "100"
+                    }
+                ]
+            },
+            {
+                "key": "RedeclaredFunction",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "SameNameForFunctionAndVariable",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "NamedFunctionExpression",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "TooManyBreakOrContinueInLoop",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "UnusedFunctionArgument",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S100",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "format",
+                        "value": "^[a-z][a-zA-Z0-9]*$"
+                    }
+                ]
+            },
+            {
+                "key": "S1301",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "S1126",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "S1264",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "S1472",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "S1219",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "S1067",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "max",
+                        "value": "3"
+                    }
+                ]
+            }
+        ]
+    }
+]

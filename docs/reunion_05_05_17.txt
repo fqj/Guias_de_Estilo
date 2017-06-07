@@ -1,0 +1,84 @@
+reunion para el seguimiento del inventario, 05-05-2017
+
+Asistentes:
+
+Laura Serrano Quejido
+Javier
+Jose Emilio Zarco
+Santiago Muñoz
+Francsico Quintero
+
+Tema a tratar:
+
+realizar un seguimineto del inventario
+
+Modulos que han empezado a inventariar:
+* gestion de ususarios
+* seguridad
+* transferencias ( consulta, firma y anulacion )
+
+Laura comenta que gestion de usuario ya esta inventariado
+ops ois crx y sass todo esta inventariado..solo lo que se usa en la web
+los workspaces tienen que ser autocontenidos
+
+Laura comenta que cambio de clave y cambio de firma no se esta usando 
+
+workspace pasado en psf
+gestion de usuario ya esta contemplado...solo han inventariado lo que creen que se esta usando.
+
+el modulo de gestion de seguridad esta realizado con banksphere2.
+
+el modulo de gestion de transferencias está realizado con banksphere3.
+
+Existe un excel que refleja la navegacion del menu de la web de empresas.
+De ahí sacan las funcionalidad e inventarian las operaciones (op) que si se usan.
+LAS que no se usan, si no se les olvida, pueden ser verificadas como tal, una vez que les pasen todos los workspaces y lo puedan comprobar 
+Santiago propone que se inventarie todo independientemente de que se utilice (op, oix. trx y sass..no han visto componetne java, xml sql?)
+luara propone inventariar por workspace e inventariar todo, para evitar que haya alguna funcionalidad que no se inventarie y 
+propone tambien la coordinacion con juan carllos y antonio para evitar duplicicad de trabajo.
+
+
+remesas coger los cgis recubrirlos y servirlos como webservices..es una primera fase
+en la segunda se quitan los cgis y se cambia por JAVA.
+
+priorizar los modulos a inventariar para poder trabajar en paralelo con el analisis y posterior desarrollo
+laura augura un trabajo para 4 meses de inventariado entre ella y javier.
+
+Santiago propone una puesta en comun entre todos para decidir el orden de inventariado.
+
+empezar por las funcionalidades que se usan a traves de google analitics
+
+Santiago propone la prioridad por criterios
+
+excel se le añade una columna con la prioridad para el inventario.
+El lunes tenemos una reunion para decidir esa prioridad.
+
+Funcionalidad por op, ois, trs, cgis..etc
+
+Hay que preguntar por el listado de lo que esta inventariado para no volver a hacerlo.
+
+
+
+alberto guerrero esta marcando la prioridad de cada uno de los modulos por el conocimiento que tiene del banco.
+otro criterio: el uso.
+otro criterio: la complejidad.
+
+priorizar en base a estos tres criterios
+
+
+hay un excel con todos los menus 
+
+Zarco propone que a final de mes podamos definir los sprints.
+Eduardo propone que una vez todo inventariado y analizdo empezamos a migrar
+
+Remesas es un proyecto que va en paralelo a la nueva web de empresas
+pero que pueden haber decisiones de la nwe que pueden afectar a la web de remesas, por ej el ldap
+
+Zarco propone la coexistencia entre lo antiguo y lo nuevo...por ej con el ldap.
+modo de trabajo, a que puede afectar?
+
+Remesas hay uqe hacer un analisis...hay como 50 tipos de formularios.
+
+Pedir acceso a la aplicacion
+mirar en casa la web de empresas.
+

@@ -1,0 +1,497 @@
+[
+    {
+        "name": "Sonar way 1.0",
+        "language": "css",
+        "default": true,
+        "rules": [
+            {
+                "key": "overspecific-selectors",
+                "repo": "css",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "deepnessThreshold",
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "key": "vendor-prefix",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "zero-units",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "underscore-property-hack",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "bulletproof-font-face",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "compatible-vendor-prefixes",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "known-properties",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "star-property-hack",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "ids",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "important",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "duplicate-background-images",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "universal-selector",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "font-faces",
+                "repo": "css",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "fontFaceThreshold",
+                        "value": "2"
+                    }
+                ]
+            },
+            {
+                "key": "shorthand",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "box-model",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "duplicate-properties",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "empty-rules",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "display-property-grouping",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "import",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "overqualified-elements",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "gradients",
+                "repo": "css",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "regex-selectors",
+                "repo": "css",
+                "severity": "MAJOR"
+            }
+        ]
+    }
+]
+
+
+*****************
+
+[
+    {
+        "name": "Sonar way 2.1",
+        "language": "js",
+        "default": true,
+        "rules": [
+            {
+                "key": "CommentedCode",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "FunctionComplexity",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "maximumFunctionComplexityThreshold",
+                        "value": "10"
+                    }
+                ]
+            },
+            {
+                "key": "DebuggerStatement",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "WithStatement",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "EqEqEq",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "Eval",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "OneStatementPerLine",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "Semicolon",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "CurlyBraces",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "MultilineStringLiterals",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "ArrayAndObjectConstructors",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "BitwiseOperators",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "PrimitiveWrappers",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "ForIn",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "FunctionDeclarationsWithinBlocks",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "TrailingComma",
+                "repo": "javascript",
+                "severity": "BLOCKER"
+            },
+            {
+                "key": "AssignmentWithinCondition",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "LabelPlacement",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "UnreachableCode",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "SwitchWithoutDefault",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "NonEmptyCaseWithoutBreak",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "HtmlComments",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "EmptyBlock",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "ExcessiveParameterList",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "maximumFunctionParameters",
+                        "value": "7"
+                    }
+                ]
+            },
+            {
+                "key": "CollapsibleIfStatements",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "ConstructorFunctionsForSideEffects",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "FutureReservedWords",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "DuplicateFunctionArgument",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "DuplicatePropertyName",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "OctalNumber",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "StrictMode",
+                "repo": "javascript",
+                "severity": "INFO"
+            },
+            {
+                "key": "ConditionalComment",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "TabCharacter",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "BoundOrAssignedEvalOrArguments",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "FunctionDefinitionInsideLoop",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "VariableDeclarationAfterUsage",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S1135",
+                "repo": "javascript",
+                "severity": "INFO"
+            },
+            {
+                "key": "S1145",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S138",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "max",
+                        "value": "100"
+                    }
+                ]
+            },
+            {
+                "key": "S1125",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "RedeclaredVariable",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "RedeclaredFunction",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "TrailingWhitespace",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "TrailingComment",
+                "repo": "javascript",
+                "severity": "MINOR",
+                "params": [
+                    {
+                        "key": "legalCommentPattern",
+                        "value": "^//\\s*+[^\\s]++$"
+                    }
+                ]
+            },
+            {
+                "key": "SameNameForFunctionAndVariable",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "NamedFunctionExpression",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "TooManyBreakOrContinueInLoop",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "UnusedVariable",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "UnusedFunctionArgument",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S100",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "format",
+                        "value": "^[a-z][a-zA-Z0-9]*$"
+                    }
+                ]
+            },
+            {
+                "key": "S1442",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S1134",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S104",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "maximum",
+                        "value": "1000"
+                    }
+                ]
+            },
+            {
+                "key": "S1301",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "S1126",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "S1264",
+                "repo": "javascript",
+                "severity": "MINOR"
+            },
+            {
+                "key": "S1472",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "S878",
+                "repo": "javascript",
+                "severity": "MAJOR"
+            },
+            {
+                "key": "S1219",
+                "repo": "javascript",
+                "severity": "CRITICAL"
+            },
+            {
+                "key": "S1067",
+                "repo": "javascript",
+                "severity": "MAJOR",
+                "params": [
+                    {
+                        "key": "max",
+                        "value": "3"
+                    }
+                ]
+            },
+            {
+                "key": "NestedIfDepth",
+                "repo": "javascript",
+                "severity": "MINOR",
+                "params": [
+                    {
+                        "key": "maximumNestingLevel",
+                        "value": "3"
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,89 @@
+﻿27/04/2017 Reunion NWE (Nueva Web de Empresas)
+Asistentes:
+
+Muñoz Muñoz SantiagoAdd contact
+Perucha Vallejo Angel Luis, Vaquero Navarro Antonio,
+Rodriguez Fernandez Antonio (Isban)
+Rodriguez Lopez Victoria
+Eduardo de Andres Aguero
+Delgado Cejudo Juan Carlos
+Isaac Sanz Garcia
+Raul de Rojas Alonso
+Francisco Quintero
+jezarco@vectoritcgroup.com
+
+Puntos a revisar.
+ 
+Situación de inventario CGIS-BKS2/3
+Estudio necesidad LDAP
+Arquitectura AsIs – ToBe
+Guías metodológicas.
+Recursos de componentes comunes
+
+
+
+1. Situacion de inventario
+
+Se van a incorporar dos personas de vector para adelantar en el inventario.
+Actualemte se desconocde el porcentaje inevntariado , aunuq juan carlos calcula que entre un 10 o un 20%...cifra ni fiable.
+juan carlos lleva como 150 servicios docuem
+
+
+
+2. Estudio necesidad LDAP
+
+Vector va a realiza una propuesta para ver en un foro de cara a mostrar la conveniencia de usar LDAP. aunque sera desarrollado como capitulo
+aparte del proyecto para que éste no afecte 
+
+
+
+3. Arquitectura AsIs - ToBe
+
+Estado actual: La Supernet de Empresas actual está diseñada y realizada en tecnología obsoleta (BKS2 y CGIs en ANSI C), con soluciones locales (fuera de tecnología corporativa).
+
+
+
+Se mantiene la sesión de la aplicación, a nivel de presentación, con un token (secreto) que se mantiene vivo en cada petición. No se utiliza seguridad corporativa.
+
+Capa de Presentacion:
+interfaz de la solucion 
+Sistema: Presentación actual (bks2, bks3, CGI’s)
+
+Integración vía iFrame, invocando a los sistemas existentes vía url.
+
+Sistema: LifeRay/ IPF : Desarrollos HTML + Phoenix
+
+Los desarrollos que estarán embebidos en un widget iFrame, con los desarrollos montados con HTML+Phoenix son:
+Posición Global
+Formulario de Contratación
+SICO
+Contratación de préstamos
+Seguimiento de remesas
+Consulta de remesas
+Envío de remesas
+Mis Solicitudes de contratación
+Alta de Remesas
+Firma de solicitudes de Remesas
+FICO-Cuentas
+FICO-Descarga de movimientos
+FICO-Transferencias
+
+
+En la parte front, se elimino la parte correspondiente a Liferay, para la presentacion, sustitutendolo por angular y usando los webservices que en su momento se crearon para liferay, aunque no
+se ha desarrollado siguiendo la tecnologia de WebComponents.
+El resto de los desarrollos estan  embebidos en widgets iframes con códigos montados con HTML + Phoenix. 
+
+
+
+Zarco de Vector propone migrar a microservicios
+
+
+4. Guias Metodologicas
+
+No dio tiempo a tratar el tema de guias metodologicas.
+
+
+
+5. Recursos de componentes comunes
+
+No dio tiempo a tratar el tema de los recursos de componentes comunes.
