@@ -210,6 +210,8 @@ li{margin:0.5em}
 
 ## 3. Estilo
 
+> Estas convenciones hacen tu código mas fácil de leer y mantener
+
 1. Asegúrate de que todas las sentencias terminan en punto y coma ";" .
 2. Asegúrate que las propiedades están indentadas dos espacios.
 3. Deja un espacio detras de los dos puntos ":" al especificar el valor de la propiedad.
@@ -224,6 +226,8 @@ li{margin:0.5em}
 1. El nombre de la clase debe ser aclaratorio del efecto que provoca la misma en el elemento.
 
 ## 5. Rendimiento
+
+> Estas reglas mejoran el rendimiento de tu aplicacion. Aplícalas.
 
 1. Utiliza clases en lugar de nombres de elementos para obtener un rendimiento de renderizado óptimo.
 2. Evita el uso de selectores de atributos ( [class ^ = "..."]) en componentes comunes. El rendimiento del navegador se ve afectado por estos.

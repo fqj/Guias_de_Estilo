@@ -1,38 +1,85 @@
-# Guía de Estilo CSS / Sass de Airbnb
+<style>
+h1 {
+    color:white;
+    background:#7ab6df;
+    width:100%;
+    padding-left:0.5em;
+    padding:auto;
+    font-size:3em;
+    font-weight:bold;
+    letter-spacing:0.01em
+ }
+h2 {
+    color:#7ab6df;
+    background:#ffffff;
+    font-weight:bold;
+    width:100%;
+    padding:5px;
+    font-size:30px;
+    letter-spacing:0.01em;
+    border-bottom:1px solid #7ab6df!important;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+h3 {
+    color:#7ab6df;
+    background:#ffffff;
+    width:100%;
+    padding:3px;
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:1px solid #7ab6df!important;
+    letter-spacing:0.01em;
+}
+pre {
+    background:#e1f0fa!important;
+    border: 1px solid #8ac6ef
+}
+code {
+    color:#222;
+    font-size:1em;
+    font-weight:300;
+}
 
-*Un enfoque más razonable para CSS y Sass*
+blockquote {
+    padding: 1em!important;
+    color: #000!important;
+    border-left: 0.25em solid #ce7206!important;
+    background:#fbebc0;
+}
+ul {margin:1em}
+li{margin:0.5em}
+</style>
+
+# Guía de Estilo CSS / Sass 
+
+> *Un enfoque más razonable para CSS y Sass*
 
 ## Tabla de contenidos
 
-<ul>
-    <li>1. [Terminología](#terminología)
-        <ul>
-            <li>[Reglas](#reglas)</li>
-            <li>[Selectores](#selectores)</li>
-            <li>[Propiedades](#propiedades)</li>
-        </ul>
-    </li>
-    <li>2. [CSS](#css)
-        <ul>
-            <li>[Formato](#formato)</li>
-            <li>[Comentarios](#comentarios)</li>
-            <li>[OOCSS y BEM](#oocss-y-bem)</li>
-            <li>[Selectores ID](#selectors-id)</li>
-            <li>[JavaScript hooks](#javascript-hooks)</li>
-            <li>[Border](#border)</li>
-        </ul>
-    </li>
-    <li>[Sass](#sass)
-        <ul>
-            <li>[Sintaxis](#sintaxis)</li>
-            <li>[Orden](#orden-de-las-declaraciones-de-propiedades)</li>
-            <li>[Variables](#variables)</li>
-            <li>[Mixins](#mixins)</li>
-            <li>[Extends](#extends)</li>
-            <li>[Anidación](#anidacion)</li>
-        </ul>
-    </li>
-</ul>
+1. **Terminología**
+
+  - Reglas
+  - Selectores
+  - Propiedades
+
+2. **CSS**
+
+  - Formato
+  - Comentarios
+  - OOCSS y BEM
+  - Selectores ID
+  - JavaScript hooks
+  - Border
+
+3. **Sass**
+  - Sintaxis
+  - Orden
+  - Variables
+  - Mixins
+  - Extends
+  - Anidación
+
 
 ## Terminología
 
